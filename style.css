@@ -4,6 +4,13 @@
     gap: 50px;
     justify-content:center;
     padding-top: 20px;
+    background-color: #EEE3AB;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: auto;
 }
 
 .list {
@@ -11,6 +18,8 @@
     flex-direction: column;
     border: 5px solid red;
     padding: 10px;
+    background-color: #80A1C1;
+    max-height: 75%;
 }
 
 .list h1 {
@@ -29,10 +38,12 @@
     border: 5px solid purple;
     justify-content:center;
     align-items:center;
+    max-height: 75%;
 }
 
 img {
     display: flex;
     max-width: 400px;
     max-height: 400px;
+    image-rendering: pixelated;
 }
