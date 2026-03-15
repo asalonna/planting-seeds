@@ -27,6 +27,7 @@
 .list h1 {
     align-self: center;
     margin-bottom: 20px;
+    font-family: 'pixelify sans';
 }
 
 .list button {
