@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 50%;
+    gap: 50px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.list h1 {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.list button {
+    width: min-content;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.plant {
+    display: flex;
+    border: 5px solid purple;
+    justify-content:center;
+    align-items:center;
+}
+
+img {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+}
